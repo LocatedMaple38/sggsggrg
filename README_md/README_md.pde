@@ -1,8 +1,6 @@
 //Global Variables
 int appWidth, appHeight;
 float backgroundimaegY, backgroundimaegX, backgroundimaegwith, backgroundimaeghight;
-
-
 void setup() {
 size(1000, 800);
   appWidth = width;
@@ -18,6 +16,5 @@ size(1000, 800);
   rect(backgroundimaegY, backgroundimaegX, backgroundimaegwith, backgroundimaeghight);
   //
 }
-
 void draw() {
 }
